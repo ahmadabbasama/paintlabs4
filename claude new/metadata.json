@@ -1,0 +1,8 @@
+{
+  "name": "Paint Labs",
+  "description": "A store to buy portraits inside GIKI",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

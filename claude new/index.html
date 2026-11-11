@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paint Labs — Original Hand-Painted Art & Custom Portraits</title>
+    <meta name="description" content="Original hand-painted art on canvas and custom commissioned portraits delivered directly across GIKI. Where color is made." />
+    <meta property="og:site_name" content="Paint Labs" />
+    <meta property="og:title" content="Paint Labs — Where color is made" />
+    <meta property="og:description" content="Original hand-painted art on canvas and custom commissioned portraits delivered directly across GIKI. Where color is made." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/assets/aistudio/tagline_by_logo_2cf77e5f.png" />
+    <meta property="og:image:secure_url" content="/assets/aistudio/tagline_by_logo_2cf77e5f.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1024" />
+    <meta property="og:image:height" content="1024" />
+    <meta property="og:image:alt" content="Paint Labs — Where color is made" />
+
+    <!-- Twitter Card Meta -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Paint Labs — Where color is made" />
+    <meta name="twitter:description" content="Original hand-painted art on canvas and custom commissioned portraits delivered directly across GIKI. Where color is made." />
+    <meta name="twitter:image" content="/assets/aistudio/tagline_by_logo_2cf77e5f.png" />
+    <meta name="twitter:image:alt" content="Paint Labs — Where color is made" />
+
+    <link rel="icon" type="image/png" href="/assets/aistudio/only_logo_is_bdd5590e.png" />
+    <link rel="apple-touch-icon" href="/assets/aistudio/tagline_by_logo_2cf77e5f.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      (function() {
+        if (typeof window !== 'undefined' && window.location.origin) {
+          const absoluteImg = window.location.origin + '/assets/aistudio/tagline_by_logo_2cf77e5f.png';
+          const ogImg = document.querySelector('meta[property="og:image"]');
+          if (ogImg) ogImg.setAttribute('content', absoluteImg);
+          const ogSecImg = document.querySelector('meta[property="og:image:secure_url"]');
+          if (ogSecImg) ogSecImg.setAttribute('content', absoluteImg);
+          const twImg = document.querySelector('meta[name="twitter:image"]');
+          if (twImg) twImg.setAttribute('content', absoluteImg);
+        }
+      })();
+    </script>
+  </head>
+  <body class="bg-[#FBFBFA] text-[#191918] antialiased selection:bg-[#EAE8E3] selection:text-black">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
